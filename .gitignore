@@ -1,4 +1,6 @@
 .git/
 .git
-bundle/*/doc/tags
+bundle/
+colors/
+C/
 init.vim
