@@ -138,6 +138,11 @@ noremap <c-k> <c-w>k
 noremap <c-h> <c-w>h
 noremap <c-l> <c-w>l
 
+
+" Mapping to display lines
+noremap j gj
+noremap k gk
+
 " __________________________________ JSX
 
 let g:jsx_ext_required = 0
