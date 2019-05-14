@@ -42,9 +42,10 @@ filetype plugin indent on
 filetype plugin on
 syntax on
 colorscheme monokai
-set guifont=Hack
+set guifont=consolas
 
 "set clipboard=unnamedplus       " Use windows clipboard
+set relativenumber              " Turn on relative line numbers
 set noerrorbells                " No beeps
 set number                      " Show line numbers
 set backspace=indent,eol,start  " Makes backspace key more powerful.
@@ -130,6 +131,12 @@ inoremap <C-U> <C-G>u<C-U>
 
 set wildignore+=*\\.git\\*,*\\node_modules\\*
 
+
+" Switch splits easily
+noremap <c-j> <c-w>j
+noremap <c-k> <c-w>k
+noremap <c-h> <c-w>h
+noremap <c-l> <c-w>l
 
 " __________________________________ JSX
 
